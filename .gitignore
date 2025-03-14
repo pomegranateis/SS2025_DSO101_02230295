@@ -1,0 +1,11 @@
+# Ignore system files
+.aws/
+.bash_history
+.cache/
+.config/
+.docker/
+.local/
+.ssh/
+.vscode/
+.npm/
+.nvm/

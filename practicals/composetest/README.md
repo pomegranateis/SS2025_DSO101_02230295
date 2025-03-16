@@ -25,7 +25,7 @@ cd composetest
 * Developed a Python web application using Flask.
 * Integrated Redis to maintain a hit counter with a basic retry loop for resiliency.
 
-![alt text](/images/app.png)
+![alt text](images/app.png)
 
 3. Dependency Management (**requirements.txt**)
 
@@ -53,7 +53,7 @@ CMD ["flask", "run", "--debug"]
 
 * **Note**: Dockerfile should not have an extension.
 
-![alt text](/images/dockerfile.png)
+![alt text](images/dockerfile.png)
 
 5. Compose File Definition (**compose.yaml**)
 
@@ -69,7 +69,7 @@ services:
 ```
 * This configuration builds the Flask application and pulls the Redis image from Docker Hub.
 
-![alt text](/images/compose.png)
+![alt text](images/compose.png)
 
 6. Building and Running the Application
 
@@ -81,8 +81,8 @@ docker compose up
     - The application is accessible at **http://localhost:8000**
     - The hit counter increments with each page refresh.
 
-![alt text](/images/hitcounter.png)
-![alt text](/images/browser.png)
+![alt text](images/hitcounter.png)
+![alt text](images/browser.png)
 
 7. Enabling Live Code Updates with Compose Watch
 
@@ -103,7 +103,7 @@ services:
 ```
 * Modified **app.py** (e.g., changed the greeting message) to see real-time updates without rebuilding the container.
 
-![alt text](/images/watch.png)
+![alt text](images/watch.png)
 
 8. Experimenting with Additional Commands
 
@@ -111,20 +111,20 @@ services:
 ```bash
 docker compose up -d
 ```
-![alt text](/images/1.png)
+![alt text](images/1.png)
 
 * Checked running containers and local images:
 ```bash
 docker compose ps
 docker image ls
 ```
-![alt text](/images/2.png)
+![alt text](images/2.png)
 
 * Stopped the services:
 ```bash
 docker compose down
 ```
-![alt text](/images/3.png)
+![alt text](images/3.png)
 
 ## Conclusion
 

@@ -7,15 +7,15 @@ services:
     dockerfilePath: backend/Dockerfile
     envVars:
       - key: DB_HOST
-        value: <YOUR_RENDER_DB_HOST>
+        value: dpg-d0eopb95pdvs73ateq80-a
       - key: DB_USER
-        value: <YOUR_RENDER_DB_USER>
+        value: todo_db_0ba5_user
       - key: DB_PASSWORD
-        value: <YOUR_RENDER_DB_PASSWORD>
+        value: DjXUdPY1yKYCMT2LS9dwB1dKsafpEvr8
       - key: DB_NAME
-        value: todo_db
+        value: todo_db_0ba5
       - key: PORT
-        value: "5000"
+        value: "5432"
 
   # ─────── Frontend Service ───────
   - type: web

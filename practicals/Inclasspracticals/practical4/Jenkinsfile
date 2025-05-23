@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    tools {
+        nodejs 'NodeJS-20.x'
+    }
+    stages {
+        stage('Install') {
+            steps {
+                sh 'npm install'
+            }
+        }
+        stage('Test') {
+            steps {
+                sh 'npm test -- --ci --reporters=jest-junit'
+            }
+            post {
+                always {
+                    junit 'junit.xml'
+                }
+            }
+        }
+        stage('Build') {
+            steps {
+                sh 'echo "Build complete!"'
+            }
+        }
+        stage('Deploy') {
+            steps {
+                sh 'echo "Deploying app..."'
+            }
+        }
+    }
+}

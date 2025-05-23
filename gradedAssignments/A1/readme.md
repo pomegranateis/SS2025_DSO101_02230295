@@ -49,7 +49,7 @@ REACT_APP_API_URL=http://localhost:5000
 
 - create the database and table
 
-![alt text](image-3.png)
+![alt text](img/image-3.png)
 
 **2. Backend**
 
@@ -72,14 +72,14 @@ For API Endpoints, Request/Response bodies are JSON.
 
 ## Render Deployment
 
-![alt text](image.png)
+![alt text](img/image.png)
 
 ### Frontend
 
-![alt text](image-1.png)
+![alt text](img/image-1.png)
 
 ### Backend
 
-![alt text](image-2.png)
+![alt text](img/image-2.png)
 
 - **error** messages pop up due to frontend-backend connection issues.

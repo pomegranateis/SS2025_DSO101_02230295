@@ -1,0 +1,19 @@
+{
+  "name": "practical5-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Building app...\"",
+    "test": "jest --passWithNoTests",
+    "deploy:prod": "echo \"Deploying to production...\"",
+    "deploy:stage": "echo \"Deploying to staging...\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0"
+  }
+}

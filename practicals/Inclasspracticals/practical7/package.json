@@ -1,0 +1,13 @@
+{
+  "name": "practical7",
+  "version": "1.0.0",
+  "description": "Node.js app for Jenkins shared library testing",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Building app...'",
+    "test": "echo 'No tests defined. Skipping tests.'"
+  },
+  "author": "pema tshering yangchen",
+  "license": "ISC",
+  "dependencies": {}
+}

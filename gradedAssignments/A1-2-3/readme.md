@@ -235,6 +235,8 @@ Created .github/workflows/deploy.yml with the following structure:
 ![alt text](img/23.png)
 ![alt text](img/24.png)
 
+**Successful Log**
+![alt text](img/29.png)
 ### Task 4: Deployment on Render
 
 - First push the image to DockerHub properly by logging in.
